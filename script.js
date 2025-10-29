@@ -83,15 +83,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Button click handlers
 document.addEventListener('DOMContentLoaded', () => {
-    // Watch Video button
-    const watchVideoBtn = document.querySelector('.hero-section .cta-button');
-    if (watchVideoBtn) {
-        watchVideoBtn.addEventListener('click', () => {
-            // Placeholder for video functionality
-            alert('Video functionality would be implemented here. This could open a modal, redirect to YouTube, or embed a video player.');
-        });
-    }
-    
     // Share Message button
     const shareBtn = document.querySelector('.cta-section .cta-button');
     if (shareBtn) {
