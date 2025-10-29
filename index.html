@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move Toronto Public Transit Forward</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-background-animation"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Move Toronto Forward.</h1>
+                <p class="hero-subtitle">We can't innovate if we can't move.</p>
+                <button class="cta-button primary">Watch Video</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <h2 class="section-title">Toronto's Commute Is Slowing the City Down.</h2>
+            <p class="section-description">
+                Long commutes waste time, cause stress, and lower productivity. 
+                Toronto residents spend significantly more time in transit than other major cities, 
+                limiting our potential for growth and innovation.
+            </p>
+            <div class="chart-container">
+                <div class="chart-title">Average Daily Commute Time (Minutes)</div>
+                <div class="bar-chart">
+                    <div class="bar-item">
+                        <div class="bar toronto-bar" data-value="82"></div>
+                        <div class="bar-label">Toronto</div>
+                        <div class="bar-value">82 min</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar other-bar" data-value="65"></div>
+                        <div class="bar-label">Vancouver</div>
+                        <div class="bar-value">65 min</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar other-bar" data-value="58"></div>
+                        <div class="bar-label">Montreal</div>
+                        <div class="bar-value">58 min</div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar other-bar" data-value="52"></div>
+                        <div class="bar-label">Calgary</div>
+                        <div class="bar-value">52 min</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact-section">
+        <div class="container">
+            <h2 class="section-title white-text">Every Hour Lost Slows Progress.</h2>
+            <div class="impact-visual">
+                <div class="clock-container">
+                    <div class="clock-face">
+                        <div class="clock-hand hour-hand"></div>
+                        <div class="clock-hand minute-hand"></div>
+                        <div class="clock-center"></div>
+                    </div>
+                </div>
+                <div class="impact-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2.5 hours</div>
+                        <div class="stat-label">Lost daily to commuting</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">600+ hours</div>
+                        <div class="stat-label">Lost annually per person</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">$3.2B</div>
+                        <div class="stat-label">Economic impact citywide</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Section -->
+    <section class="innovation-section">
+        <div class="container">
+            <h2 class="section-title">Innovation Can Move Us Faster.</h2>
+            <div class="innovation-grid">
+                <div class="innovation-item">
+                    <div class="innovation-icon">🚇</div>
+                    <h3>Smart Transit Networks</h3>
+                    <p>AI-powered routing and real-time optimization can reduce wait times by 40%.</p>
+                </div>
+                <div class="innovation-item">
+                    <div class="innovation-icon">📱</div>
+                    <h3>Integrated Digital Systems</h3>
+                    <p>Seamless payment and journey planning across all transit modes.</p>
+                </div>
+                <div class="innovation-item">
+                    <div class="innovation-icon">🌱</div>
+                    <h3>Sustainable Solutions</h3>
+                    <p>Electric buses and renewable energy infrastructure for cleaner transit.</p>
+                </div>
+            </div>
+            <div class="route-animation">
+                <svg class="route-svg" viewBox="0 0 800 200">
+                    <path class="route-line" d="M50,100 Q200,50 400,100 T750,100" stroke="#84BCB6" stroke-width="3" fill="none"/>
+                    <circle class="route-node start" cx="50" cy="100" r="8" fill="#BC5135"/>
+                    <circle class="route-node middle" cx="400" cy="100" r="6" fill="#84BCB6"/>
+                    <circle class="route-node end" cx="750" cy="100" r="8" fill="#BC5135"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Awareness Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Move Toronto Forward – Invest in Better Transit.</h2>
+            <p class="cta-description">
+                Join the conversation about building a transit system that works for everyone.
+            </p>
+            <button class="cta-button secondary">Share This Message</button>
+        </div>
+    </section>
+
+    <!-- About/Credits Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <p class="about-text">
+                    This project supports <strong>UN SDG 9: Industry, Innovation & Infrastructure</strong>.
+                </p>
+                <p class="about-credits">
+                    Designed by <strong>Hui Ke</strong>, OCAD University.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
