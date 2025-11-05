@@ -19,7 +19,7 @@
     --font-body: 'Inter', sans-serif;
     
     --section-padding: 80px 0;
-    --container-max-width: 1600px;
+    --container-max-width: 1400px;
     --container-padding: 0 60px;
 }
 
@@ -47,17 +47,17 @@ body {
 .section-title {
     font-family: var(--font-heading);
     font-weight: 700;
-    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-size: clamp(2rem, 4vw, 3rem);
     line-height: 1.2;
     margin-bottom: 32px;
     color: var(--dark-grey);
 }
 
 .section-description {
-    font-size: 1.75rem;
-    line-height: 1.7;
-    max-width: 1000px;
-    margin: 0 auto 60px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto 50px;
     color: var(--dark-grey);
     text-align: center;
 }
@@ -134,23 +134,23 @@ body {
 .hero-title {
     font-family: 'Chalky', sans-serif;
     font-weight: 400;
-    font-size: clamp(3rem, 7vw, 5.5rem);
+    font-size: clamp(2.5rem, 5vw, 4rem);
     line-height: 1.1;
     color: var(--white);
     margin-bottom: 8px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 .hero-subtitle {
     font-family: 'Chalky', sans-serif;
     font-weight: 400;
-    font-size: clamp(3rem, 6.7vw, 5.2rem);
+    font-size: clamp(2.3rem, 4.8vw, 3.8rem);
     color: var(--white);
     margin-bottom: 32px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     line-height: 1.1;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 /* SDG 9 badge */
@@ -166,15 +166,15 @@ body {
 }
 
 .sdg-icon {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
     flex-shrink: 0;
 }
 
 .sdg-text {
     font-family: 'Chalky', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--white);
     margin: 0;
@@ -184,7 +184,7 @@ body {
 
 /* Video container - prevent darkening on hover */
 .video-container {
-    max-width: 1400px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto 60px;
     border-radius: 16px;
@@ -330,7 +330,7 @@ body {
 .innovation-item h3 {
     font-family: var(--font-heading);
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: var(--primary-color);
     margin-bottom: 16px;
     line-height: 1.2;
@@ -340,7 +340,7 @@ body {
 .innovation-item p {
     color: var(--dark-grey);
     line-height: 1.5;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* Call to action section */
@@ -353,19 +353,18 @@ body {
 .cta-title {
     font-family: var(--font-heading);
     font-weight: 700;
-    font-size: clamp(2.5rem, 4.5vw, 3.5rem);
+    font-size: clamp(2rem, 4vw, 3rem);
     color: var(--white);
     margin-bottom: 24px;
     line-height: 1.3;
-    white-space: nowrap;
 }
 
 .cta-description {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--white);
     opacity: 0.95;
-    margin-bottom: 48px;
-    max-width: 1000px;
+    margin-bottom: 40px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
