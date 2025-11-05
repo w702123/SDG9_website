@@ -1,7 +1,7 @@
 /* Load custom Chalky font from local file */
 @font-face {
     font-family: 'Chalky';
-    src: url('font/Chalky-1jDeZ.ttf') format('truetype');
+    src: url('./font/Chalky-1jDeZ.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
