@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Move Toronto Public Transit Forward</title>
+    <!-- Google Fonts for body text -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
+    <!-- Top section with main title and video -->
     <section class="hero-section">
         <div class="hero-background-animation"></div>
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Move Toronto Forward</h1>
                 <p class="hero-subtitle">Invest in Better Transit</p>
+                <!-- SDG goal badge -->
+                <div class="sdg-badge">
+                    <img src="image/TheGlobalGoals_Icons_Color_Goal_9.jpg" alt="SDG 9 Icon" class="sdg-icon">
+                    <p class="sdg-text">SDG 9 Industry, Innovation and Infrastructure</p>
+                </div>
+                <!-- Main video -->
                 <div class="video-container">
                     <video id="mainVideo" controls>
-                        <source src="video/draft2.mp4" type="video/mp4">
+                        <source src="video/final.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -27,44 +34,38 @@
         </div>
     </section>
 
-    <!-- Problem Section -->
+    <!-- Commute time comparison section -->
     <section class="problem-section">
         <div class="container">
-            <h2 class="section-title">Toronto's Commute Is Slowing the City Down.</h2>
+            <h2 class="section-title">Public Transit Takes the&nbsp;Longest&nbsp;Time.</h2>
             <p class="section-description">
-                Long commutes waste time, cause stress, and lower productivity. 
-                Toronto residents spend significantly more time in transit than other major cities, 
-                limiting our potential for growth and innovation.
+                Your commute time depends heavily on how you travel. Public transit users spend nearly twice as long getting to work compared to drivers, and three times longer than those who walk or bike. This time gap impacts quality of life and makes sustainable transportation less appealing.
             </p>
+            <!-- Bar chart showing commute times -->
             <div class="chart-container">
-                <div class="chart-title">Average Daily Commute Time (Minutes)</div>
+                <div class="chart-title">Average Commute Time by Transportation Method (2025)</div>
                 <div class="bar-chart">
                     <div class="bar-item">
-                        <div class="bar toronto-bar" data-value="82"></div>
-                        <div class="bar-label">Toronto</div>
-                        <div class="bar-value">82 min</div>
+                        <div class="bar transit-bar" data-value="44.1"></div>
+                        <div class="bar-label">Public Transit</div>
+                        <div class="bar-value">44.1 min</div>
                     </div>
                     <div class="bar-item">
-                        <div class="bar other-bar" data-value="65"></div>
-                        <div class="bar-label">Vancouver</div>
-                        <div class="bar-value">65 min</div>
+                        <div class="bar car-bar" data-value="24.7"></div>
+                        <div class="bar-label">Personal Vehicle</div>
+                        <div class="bar-value">24.7 min</div>
                     </div>
                     <div class="bar-item">
-                        <div class="bar other-bar" data-value="58"></div>
-                        <div class="bar-label">Montreal</div>
-                        <div class="bar-value">58 min</div>
-                    </div>
-                    <div class="bar-item">
-                        <div class="bar other-bar" data-value="52"></div>
-                        <div class="bar-label">Calgary</div>
-                        <div class="bar-value">52 min</div>
+                        <div class="bar active-bar" data-value="15.0"></div>
+                        <div class="bar-label">Walk/Bike</div>
+                        <div class="bar-value">15.0 min</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Innovation Section -->
+    <!-- Transit problems/statistics section -->
     <section class="innovation-section">
         <div class="container">
             <h2 class="section-title">Where Commuters Get Stuck</h2>
@@ -98,7 +99,7 @@
         </div>
     </section>
 
-    <!-- Call-to-Awareness Section -->
+    <!-- Call to action section -->
     <section class="cta-section">
         <div class="container">
             <h2 class="cta-title">Move Toronto Forward – Invest in Better Transit.</h2>
@@ -109,7 +110,7 @@
         </div>
     </section>
 
-    <!-- About/Credits Section -->
+    <!-- Footer with credits and info -->
     <section class="about-section">
         <div class="container">
             <div class="about-content">
@@ -118,6 +119,9 @@
                 </p>
                 <p class="about-credits">
                     Designed by <strong>Hui Ke</strong>, OCAD University.
+                </p>
+                <p class="font-license">
+                    Chalky font family designed by Unknown Designer. Free for personal use. <a href="https://www.cdnfonts.com/chalky.font" target="_blank" rel="noopener">Source</a>
                 </p>
             </div>
         </div>
