@@ -133,6 +133,10 @@ body {
 
 .hero-title-container {
     margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-title {
@@ -144,6 +148,8 @@ body {
     margin-bottom: 12px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     letter-spacing: 8px;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 .hero-subtitle {
@@ -156,6 +162,8 @@ body {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
     line-height: 1.15;
     letter-spacing: 8px;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 /* SDG 9 badge */
@@ -311,7 +319,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     grid-column: span 2;
+    overflow: hidden;
+    text-align: center;
 }
 
 /* Center the last two cards */
@@ -336,17 +347,21 @@ body {
 .innovation-item h3 {
     font-family: var(--font-heading);
     font-weight: 700;
-    font-size: 2.8rem;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
     color: var(--primary-color);
     margin-bottom: 20px;
     line-height: 1.2;
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .innovation-item p {
     color: var(--dark-grey);
     line-height: 1.6;
-    font-size: 1.1rem;
+    font-size: clamp(0.95rem, 2vw, 1.1rem);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Call to action section */
